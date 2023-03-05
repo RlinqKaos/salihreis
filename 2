@@ -1,0 +1,14 @@
+for i, v in pairs(game:GetService("Players"):GetChildren()) do
+local args = {
+    [1] = "hit",
+    [2] = "}, {  ",
+    [3] = 100,
+    [4] = game:GetService("Players")[v.Name].Character.Humanoid,
+    [5] = game:GetService("Players")[v.Name].Character.Head,
+    [6] = 1,
+    [7] = Vector3.new(0.4490298628807068, 0.01815936714410782, 0.8933322429656982),
+    [8] = 30.661174774169922
+}
+
+game:GetService("ReplicatedStorage").ChatSystemGetMessage:InvokeServer(unpack(args))
+end
