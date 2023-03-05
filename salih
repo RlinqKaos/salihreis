@@ -95,7 +95,7 @@ kohlsc.TextScaled = true
 kohlsc.TextSize = 14.000
 kohlsc.TextWrapped = true
 kohlsc.MouseButton1Down:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/RlinqKaos/salihreis/main/1"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RlinqKaos/salihreis/main/3"))()
 end)
 
 UICorner_3.Parent = kohlsc
@@ -216,7 +216,7 @@ killall.TextScaled = true
 killall.TextSize = 14.000
 killall.TextWrapped = true
 killall.MouseButton1Down:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/RlinqKaos/salihreis/main/3"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RlinqKaos/salihreis/main/2"))()
 end)
 
 UICorner_10.Parent = killall
