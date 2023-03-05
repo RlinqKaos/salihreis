@@ -1,5 +1,4 @@
--- Gui to Lua
--- Version: 3.2
+--Developer Rlinq Kaos
 
 -- Instances:
 
@@ -79,7 +78,7 @@ adonisc.TextScaled = true
 adonisc.TextSize = 14.000
 adonisc.TextWrapped = true
 adonisc.MouseButton1Down:Connect(function()
-	loadstring(game:GetObjects("rbxassetid://12669053574")[1].Source)()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RlinqKaos/salihreis/main/1"))()
 end)
 
 UICorner_2.Parent = adonisc
@@ -96,7 +95,7 @@ kohlsc.TextScaled = true
 kohlsc.TextSize = 14.000
 kohlsc.TextWrapped = true
 kohlsc.MouseButton1Down:Connect(function()
-	loadstring(game:GetObjects("rbxassetid://12669056893")[1].Source)()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RlinqKaos/salihreis/main/1"))()
 end)
 
 UICorner_3.Parent = kohlsc
@@ -113,7 +112,7 @@ sesacma.TextScaled = true
 sesacma.TextSize = 14.000
 sesacma.TextWrapped = true
 sesacma.MouseButton1Down:Connect(function()
-	loadstring(game:GetObjects("rbxassetid://12669060723")[1].Source)()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RlinqKaos/salihreis/main/4"))()
 end)
 
 UICorner_4.Parent = sesacma
@@ -217,7 +216,7 @@ killall.TextScaled = true
 killall.TextSize = 14.000
 killall.TextWrapped = true
 killall.MouseButton1Down:Connect(function()
-	loadstring(game:GetObjects("rbxassetid://12669064122")[1].Source)()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RlinqKaos/salihreis/main/3"))()
 end)
 
 UICorner_10.Parent = killall
